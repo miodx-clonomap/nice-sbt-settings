@@ -2,6 +2,7 @@ sbtPlugin := true
 
 name := "nice-sbt-settings"
 organization := "clonomap"
+version := "0.10.1"
 description := "sbt plugin accumulating some useful and nice sbt settings"
 
 scalaVersion := "2.12.7"
