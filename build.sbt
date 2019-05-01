@@ -1,7 +1,7 @@
 sbtPlugin := true
 
 name := "nice-sbt-settings"
-organization := "clonomap"
+organization := "com.miodx.sbt.plugins"
 version := "0.10.1"
 description := "sbt plugin accumulating some useful and nice sbt settings"
 
