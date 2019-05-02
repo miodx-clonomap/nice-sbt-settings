@@ -1,13 +1,12 @@
 sbtPlugin := true
 
 name := "nice-sbt-settings"
-organization := "ohnosequences"
+organization := "com.miodx.sbt.plugins"
+version := "0.10.1"
 description := "sbt plugin accumulating some useful and nice sbt settings"
 
 scalaVersion := "2.12.7"
 sbtVersion in Global := "1.2.6"
-
-bucketSuffix := "era7.com"
 
 resolvers += "Github-API" at "http://repo.jenkins-ci.org/public/"
 
