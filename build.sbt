@@ -5,7 +5,7 @@ description := "sbt plugin accumulating some useful and nice sbt settings"
 
 sbtPlugin := true
 scalaVersion := "2.10.7"
-bucketSuffix := "era7.com"
+//bucketSuffix := "era7.com"
 
 addSbtPlugin("com.miodx.common"  % "sbt-s3-resolver"    % "0.15.0")  // https://github.com/ohnosequences/sbt-s3-resolver
 addSbtPlugin("com.miodx.common"  % "sbt-github-release" % "0.4.0")   // https://github.com/ohnosequences/sbt-github-release
@@ -19,7 +19,7 @@ libraryDependencies ++= Seq(
   "com.amazonaws" % "aws-java-sdk-s3" % "1.11.27"
 )
 
-wartremoverErrors in (Compile, compile) := Seq()
+//wartremoverErrors in (Compile, compile) := Seq()
 // wartremoverWarnings ++= Warts.allBut(Wart.NoNeedForMonad)
 
 dependencyOverrides ++= Set(
