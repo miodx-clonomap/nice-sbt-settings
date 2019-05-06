@@ -7,13 +7,13 @@ sbtPlugin := true
 scalaVersion := "2.10.7"
 //bucketSuffix := "era7.com"
 
-addSbtPlugin("com.miodx.common"  % "sbt-s3-resolver"    % "0.15.0")  // https://github.com/ohnosequences/sbt-s3-resolver
-addSbtPlugin("com.miodx.common"  % "sbt-github-release" % "0.4.0")   // https://github.com/ohnosequences/sbt-github-release
-addSbtPlugin("com.eed3si9n"      % "sbt-assembly"       % "0.14.5")  // https://github.com/sbt/sbt-assembly
-addSbtPlugin("com.timushev.sbt"  % "sbt-updates"        % "0.3.0")   // https://github.com/rtimush/sbt-updates
-addSbtPlugin("laughedelic"       % "literator"          % "0.7.1")   // https://github.com/laughedelic/literator
-addSbtPlugin("com.markatta"      % "taglist-plugin"     % "1.3.1")   // https://github.com/johanandren/sbt-taglist
-addSbtPlugin("org.wartremover"   % "sbt-wartremover"    % "1.2.1")   // https://github.com/puffnfresh/wartremover
+addSbtPlugin("com.miodx.sbt.plugins"  % "sbt-s3-resolver"    % "0.15.0")  // https://github.com/ohnosequences/sbt-s3-resolver
+addSbtPlugin("com.miodx.sbt.plugins"  % "sbt-github-release" % "0.4.0")   // https://github.com/ohnosequences/sbt-github-release
+addSbtPlugin("com.eed3si9n"           % "sbt-assembly"       % "0.14.5")  // https://github.com/sbt/sbt-assembly
+addSbtPlugin("com.timushev.sbt"       % "sbt-updates"        % "0.3.0")   // https://github.com/rtimush/sbt-updates
+addSbtPlugin("laughedelic"            % "literator"          % "0.7.1")   // https://github.com/laughedelic/literator
+addSbtPlugin("com.markatta"           % "taglist-plugin"     % "1.3.1")   // https://github.com/johanandren/sbt-taglist
+addSbtPlugin("org.wartremover"        % "sbt-wartremover"    % "1.2.1")   // https://github.com/puffnfresh/wartremover
 
 libraryDependencies ++= Seq(
   "com.amazonaws" % "aws-java-sdk-s3" % "1.11.27"
